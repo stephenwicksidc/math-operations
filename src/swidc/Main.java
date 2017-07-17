@@ -28,29 +28,33 @@ public class Main {
         Double operand2 = Double.parseDouble(secondInputNumber);
 
         sum = operand1 + operand2;
-        System.out.println("The sum is " + sum);
+
 
         difference = operand1 - operand2;
-        System.out.println("The difference is " + difference);
+
 
         division  = operand1 / operand2;
-        System.out.println("The quotient is " + division);
+
 
         multiplication = operand1 * operand2;
-        System.out.println("The product is " + multiplication);
+
 
         remainder = operand1 % operand2;
-        System.out.println("The remainder is " + remainder);
+
+        showResults(sum, difference, division, multiplication, remainder);
+
 
 
 
     }
-    public static void showResults(double sum, double difference, double division, double multiplication, double remainder){
-        System.out.println(sum);
-        System.out.println(difference);
-        System.out.println(division);
-        System.out.println(multiplication);
-        System.out.println(remainder);
+    public static void showResults(double sumNum, double differenceNum, double divisionNum, double multiplicationNum, double remainderNum){
+
+
+        System.out.println("The sum is " + sumNum);
+        System.out.println("The difference is " + differenceNum);
+        System.out.println("The quotient is " + divisionNum);
+        System.out.println("The product is " + multiplicationNum);
+        System.out.println("The remainder is " + remainderNum);
 
     }
 
